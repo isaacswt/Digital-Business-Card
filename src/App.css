@@ -1,38 +1,113 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  background-color: rgba(138,174,225,0.814);;
+  /* background-color: red; */
+}
+
+.app--container {
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px 10px;
+  width: 517px;
+  height: 845px;
+}
+
+.app--container--two {
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 317px;
+  height: 765px;
+  background-color: rgba(35,46,54);
+  box-shadow: 5px 5px 5px rgba(31,30,30,0.233);
+}
+
+.info--container > img{
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  width: 317px;
+  height: 280px;
+}
+
+.main--heading {
+  font-size: 27px;
   text-align: center;
+  margin: 15px 0px 0px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main--h4--one {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: rgb(255,204,0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main--span-two {
+  font-size: 11px;
+  display: block;
+  text-align: center;
+  margin: 15px 0px 0px 0px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.btn--class {
+  display: flex;
+  padding: 20px 10px;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn--class > button {
+  width: 115px;
+  height: 35px;
+  border-radius: 6px;
+  display: flex;
+  border: none;
+  outline: none;
+  align-items: center;
+}
+
+.btn--email {
+  background-color: rgb(35,145,255);
+  color: black;
+  display: flex;
+  font-size: 16px;
+  margin-left: 22px;
+  padding: 5px 20px;
+}
+
+.btn--linkedin {
+  display: flex;
+  font-size: 16px;
+  margin-right: 22px;
+  padding: 5px 12px;
+  
+}
+.emailimg {
+  height: 20px;
+  margin: 3px;
+}
+
+.linkedinimg {
+  height: 20px;
+  margin: 3px;
+}
+
+.main--content--text {
+  width: 247px;
+  height: 246px;
+  padding: 10px;
+  margin: 5px auto;
+  overflow: hidden;
+  font-size: 20px;
+  line-height: 1.08em;
+}
+
+.main--content--text > h3 {
+  margin-bottom: 3px;
+  margin-top: 4px;
 }
